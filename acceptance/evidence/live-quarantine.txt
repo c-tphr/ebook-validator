@@ -1,0 +1,12 @@
+GUEST_READY
+INPUT /work/books/quarantine.epub e86b5a099587be014493cf9876a054cd9800df80b22da060bcbd275f85b2609d
+Wed Nov 18 19:07:22 UTC 2026
+Preflight passed. Daily signatures epoch 1794983319.
+{"path":"quarantine.epub","source":"/work/books/quarantine.epub","sha256":"e86b5a099587be014493cf9876a054cd9800df80b22da060bcbd275f85b2609d","security":{"complete":false,"findings":[{"kind":"malware","code":"malware_signature","detail":"Eicar-Test-Signature","member":"control.txt"},{"kind":"incomplete","code":"unsupported_resource","detail":"Unclassified resource or unsupported media encoding","member":"control.txt"}]},"quality":{"complete":false,"findings":[],"incomplete_reason":"EPUBCheck was skipped because security findings require quarantine."},"action":"quarantine","destination":"/work/output/quarantine/quarantine.epub","status":"quarantine","report_only":false}
+Books 1. Clean 0. Quarantine 1. Repair 0. Operational errors 0.
+CLI_EXIT=1
+Wed Nov 18 19:14:01 UTC 2026
+RETAINED /work/output/quarantine/quarantine.epub e86b5a099587be014493cf9876a054cd9800df80b22da060bcbd275f85b2609d
+QUEUE []
+FINISHED_CODE=1
+[  440.551886] reboot: Power down

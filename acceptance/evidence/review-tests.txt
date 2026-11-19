@@ -1,0 +1,12 @@
+test_collision_processes_cross_filesystem_and_reintroduction (acceptance.test_review.Review.test_collision_processes_cross_filesystem_and_reintroduction) ... ok
+test_decisions_and_preview (acceptance.test_review.Review.test_decisions_and_preview) ... ok
+test_limit_versus_worker_failure (acceptance.test_review.Review.test_limit_versus_worker_failure) ... ok
+test_preflight_refresh_and_failure (acceptance.test_review.Review.test_preflight_refresh_and_failure) ... ok
+test_process_death_after_quarantine_unlink (acceptance.test_review.Review.test_process_death_after_quarantine_unlink) ... ok
+test_queue_failure_and_copy_interruption (acceptance.test_review.Review.test_queue_failure_and_copy_interruption) ... ok
+test_selection_and_roots (acceptance.test_review.Review.test_selection_and_roots) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.367s
+
+OK

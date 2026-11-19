@@ -1,0 +1,26 @@
+test_binary_staging_interruptions_and_occupied_slot (acceptance.test_v5_independent.DriveCases.test_binary_staging_interruptions_and_occupied_slot) ... ok
+test_dedicated_evidence_upload_interruption_and_independent_expiry (acceptance.test_v5_independent.DriveCases.test_dedicated_evidence_upload_interruption_and_independent_expiry) ... ok
+test_delayed_binary_upload_is_fenced_before_takeover (acceptance.test_v5_independent.DriveCases.test_delayed_binary_upload_is_fenced_before_takeover) ... ok
+test_delayed_old_journal_write_rejected_after_takeover (acceptance.test_v5_independent.DriveCases.test_delayed_old_journal_write_rejected_after_takeover) ... ok
+test_folder_and_shortcut_scope (acceptance.test_v5_independent.DriveCases.test_folder_and_shortcut_scope) ... ok
+test_gemini_tool_registration_cannot_qualify_text_only_client (acceptance.test_v5_independent.DriveCases.test_gemini_tool_registration_cannot_qualify_text_only_client) ... ok
+test_interrupted_before_move_resumes_once (acceptance.test_v5_independent.DriveCases.test_interrupted_before_move_resumes_once) ... ok
+test_interrupted_moves_and_uploads_observed_without_replay (acceptance.test_v5_independent.DriveCases.test_interrupted_moves_and_uploads_observed_without_replay) ... ok
+test_journal_response_loss_can_be_inspected_before_retry (acceptance.test_v5_independent.DriveCases.test_journal_response_loss_can_be_inspected_before_retry) ... ok
+test_move_receipt_lost_recognized_once (acceptance.test_v5_independent.DriveCases.test_move_receipt_lost_recognized_once) ... ok
+test_notebook_review_and_file_diff_identity_for_three_simulated_reviewers (acceptance.test_v5_independent.DriveCases.test_notebook_review_and_file_diff_identity_for_three_simulated_reviewers) ... ok
+test_preview_batches_use_real_staging_and_cleanup_after_failure (acceptance.test_v5_independent.DriveCases.test_preview_batches_use_real_staging_and_cleanup_after_failure) ... ok
+test_queued_move_cannot_commit_after_new_owner (acceptance.test_v5_independent.DriveCases.test_queued_move_cannot_commit_after_new_owner) ... ok
+test_reopened_clean_decision_detects_replaced_source_and_engine (acceptance.test_v5_independent.DriveCases.test_reopened_clean_decision_detects_replaced_source_and_engine) ... ok
+test_server_ignoring_cas_cannot_enable_writes (acceptance.test_v5_independent.DriveCases.test_server_ignoring_cas_cannot_enable_writes) ... ok
+test_shared_drive_selection_uses_scoped_listing (acceptance.test_v5_independent.DriveCases.test_shared_drive_selection_uses_scoped_listing) ... ok
+test_simultaneous_first_acquisition_has_one_winner (acceptance.test_v5_independent.DriveCases.test_simultaneous_first_acquisition_has_one_winner) ... ok
+test_source_edit_and_occupied_destination_pause_only_the_operation (acceptance.test_v5_independent.DriveCases.test_source_edit_and_occupied_destination_pause_only_the_operation) ... ok
+test_transfer_bound_and_revision_drift (acceptance.test_v5_independent.DriveCases.test_transfer_bound_and_revision_drift) ... ok
+test_two_candidates_for_one_intake_cannot_both_be_canonical (acceptance.test_v5_independent.DriveCases.test_two_candidates_for_one_intake_cannot_both_be_canonical) ... ok
+test_elapsed_process_deadline_becomes_pending (acceptance.test_v5_independent.StaticTimeout.test_elapsed_process_deadline_becomes_pending) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.427s
+
+OK

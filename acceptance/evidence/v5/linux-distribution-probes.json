@@ -1,0 +1,233 @@
+{
+  "scan": {
+    "daily_published_epoch": 1794983319,
+    "offline": true,
+    "read_only": true,
+    "namespace": "net:[4026532279]",
+    "host_marker_denials": [
+      "credential_cache",
+      "drive_mount",
+      "notebook_channel",
+      "unrelated_book"
+    ],
+    "ready": true
+  },
+  "engines": {
+    "qt5": {
+      "ready": true,
+      "identity": {
+        "engine": "qt5",
+        "renderer": "Qt QTextDocument",
+        "version": "5.15.15",
+        "compiled_version": "5.15.15",
+        "bindings": "5.15.11",
+        "implementation_sha256": "ae4e966d560999d5e409d733e74e029a9a063a450790edcb59c30456b3b291aa"
+      },
+      "monitor": "renderer-callback+strace+seccomp-v1",
+      "boundary_controls": [
+        "DGRAM",
+        "STREAM",
+        "credential_cache",
+        "dispatch",
+        "drive_mount",
+        "host_read",
+        "notebook_channel",
+        "read_only",
+        "unrelated_book"
+      ],
+      "callback_controls": [
+        "out_of_book_read",
+        "outbound_request"
+      ],
+      "navigation": [
+        [
+          "reading_order",
+          "first.xhtml",
+          "",
+          "completed"
+        ],
+        [
+          "reading_order",
+          "second.xhtml",
+          "",
+          "completed"
+        ],
+        [
+          "footnote",
+          "second.xhtml",
+          "note",
+          "completed"
+        ],
+        [
+          "internal",
+          "first.xhtml",
+          "ref",
+          "completed"
+        ],
+        [
+          "toc_document",
+          "nav.xhtml",
+          "",
+          "completed"
+        ],
+        [
+          "toc",
+          "first.xhtml",
+          "start",
+          "completed"
+        ],
+        [
+          "toc",
+          "second.xhtml",
+          "note",
+          "completed"
+        ]
+      ],
+      "blocked": [
+        {
+          "action": "outbound_request",
+          "step": 0,
+          "member": "first.xhtml",
+          "blocked": true
+        },
+        {
+          "action": "outbound_request",
+          "step": 3,
+          "member": "first.xhtml",
+          "blocked": true
+        },
+        {
+          "action": "outbound_request",
+          "step": 5,
+          "member": "first.xhtml",
+          "blocked": true
+        },
+        {
+          "action": "out_of_book_read",
+          "step": 0,
+          "member": "first.xhtml",
+          "blocked": true
+        },
+        {
+          "action": "out_of_book_read",
+          "step": 3,
+          "member": "first.xhtml",
+          "blocked": true
+        },
+        {
+          "action": "out_of_book_read",
+          "step": 5,
+          "member": "first.xhtml",
+          "blocked": true
+        }
+      ]
+    },
+    "weasyprint": {
+      "ready": true,
+      "identity": {
+        "engine": "weasyprint",
+        "renderer": "WeasyPrint HTML/CSS",
+        "version": "70.0",
+        "packages": {
+          "weasyprint": "70.0",
+          "pydyf": "0.13.0",
+          "tinycss2": "1.5.1",
+          "cssselect2": "0.10.1",
+          "fonttools": "4.68.0",
+          "Pillow": "13.0.0",
+          "cffi": "2.1.1",
+          "tinyhtml5": "2.1.0"
+        },
+        "implementation_sha256": "a53de820e64cba295aac8b15e0ba396246418eb5239d104a017cb0cfb4e71312"
+      },
+      "monitor": "renderer-callback+strace+seccomp-v1",
+      "boundary_controls": [
+        "DGRAM",
+        "STREAM",
+        "credential_cache",
+        "dispatch",
+        "drive_mount",
+        "host_read",
+        "notebook_channel",
+        "read_only",
+        "unrelated_book"
+      ],
+      "callback_controls": [
+        "out_of_book_read",
+        "outbound_request"
+      ],
+      "navigation": [
+        [
+          "reading_order",
+          "first.xhtml",
+          "",
+          "completed"
+        ],
+        [
+          "reading_order",
+          "second.xhtml",
+          "",
+          "completed"
+        ],
+        [
+          "footnote",
+          "second.xhtml",
+          "note",
+          "completed"
+        ],
+        [
+          "internal",
+          "first.xhtml",
+          "ref",
+          "completed"
+        ],
+        [
+          "toc_document",
+          "nav.xhtml",
+          "",
+          "completed"
+        ],
+        [
+          "toc",
+          "first.xhtml",
+          "start",
+          "completed"
+        ],
+        [
+          "toc",
+          "second.xhtml",
+          "note",
+          "completed"
+        ]
+      ],
+      "blocked": [
+        {
+          "action": "outbound_request",
+          "step": 0,
+          "member": "first.xhtml",
+          "blocked": true
+        },
+        {
+          "action": "out_of_book_read",
+          "step": 0,
+          "member": "first.xhtml",
+          "blocked": true
+        }
+      ]
+    }
+  },
+  "host_loopback_positive": true,
+  "host_loopback_received_worker_connection": false,
+  "behavior_ready": true,
+  "monitor_outer_boundary": {
+    "uid": 62037,
+    "distinct_network_namespace": true,
+    "controller_loopback_positive": true,
+    "host_marker_denials": [
+      "credential_cache",
+      "drive_mount",
+      "notebook_channel",
+      "unrelated_book"
+    ]
+  }
+}

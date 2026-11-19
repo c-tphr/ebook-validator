@@ -1,0 +1,11 @@
+{
+  "environment": "Debian 13, Linux 6.12.107, QEMU software emulation",
+  "source_transport": "simulated Drive media client, benign mechanical-repair fixture",
+  "result": "pending",
+  "qualification": "both engines and monitors passed",
+  "operation": "static inspection of intake before repair",
+  "timeout_seconds": 300,
+  "diagnostic": "Offline worker timed out during inspect; inspection attribution unavailable",
+  "candidate_returned": false,
+  "drive_publication": false
+}

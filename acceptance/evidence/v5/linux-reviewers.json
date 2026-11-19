@@ -1,0 +1,13 @@
+{
+  "environment": "Debian 13 QEMU on Linux 6.12.107, no external NIC",
+  "dispatcher": "V5 isolated native command and Unix relay; loopback provider transport fixture",
+  "native_versions": {
+    "codex": "codex-cli 0.167.0-alpha.4",
+    "claude": "2.1.327 (Claude Code)"
+  },
+  "receipts": [
+    "LOCAL_NATIVE_REVIEW claude PASS assess edit",
+    "LOCAL_NATIVE_REVIEW codex PASS assess edit"
+  ],
+  "credential_source": "synthetic; no hosted auth"
+}

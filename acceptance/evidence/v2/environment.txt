@@ -1,0 +1,15 @@
+Linux 6.18.57 x86_64 GNU/Linux
+PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
+NAME="Debian GNU/Linux"
+VERSION_ID="13"
+Python 3.12.14
+Python 3.13.5
+openjdk version "21.0.13" 2026-10-20
+OpenJDK Runtime Environment (build 21.0.13+9-1-deb13u2-Debian)
+OpenJDK 64-Bit Server VM (build 21.0.13+9-1-deb13u2-Debian, mixed mode, sharing)
+bubblewrap 0.12.0
+overlayfs
+ClamAV 1.4.6
+423f7774182bfbc82b50c7796c68a93f8b1817ef7ebbc88d7def444bc2c8f35b  /tmp/epub-accept-tools/db/daily.cvd
+2146665a124998dc6c908010ffe0d09dc4f4c8014f2c8fd6a1aa11f64c40ac93  /tmp/epub-accept-tools/epubcheck-5.4.0/epubcheck.jar
+Wed Nov 18 19:45:16 UTC 2026

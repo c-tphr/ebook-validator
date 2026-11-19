@@ -1,0 +1,24 @@
+Linux (none) 6.12.107+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.107-1 (2026-08-29) x86_64 GNU/Linux
+uid=1000(agent) gid=1000(agent) groups=1000(agent)
+Python 3.13.5
+BWRAP OK
+ClamAV 1.4.6
+2146665a124998dc6c908010ffe0d09dc4f4c8014f2c8fd6a1aa11f64c40ac93  /tmp/epub-accept-tools/epubcheck-5.4.0/epubcheck.jar
+Devices: ext4 intake/queue and separate ext4 output. QEMU with loopback and no external NIC.
+The host denies unprivileged user namespaces. Production Bubblewrap preflight and engine testing ran in the guests.
+Final guest source compared against project by SHA-256:
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  epub_triage/__init__.py
+786376c61012e0f86f0c0b2cc3a5af2f7899e813121df3d0f7466779fdfac4e2  epub_triage/archive.py
+f2d6efe7e6c568f31861b63f603deabc417018a57eafd127bede0c729dee898b  epub_triage/backend.py
+8d66b3d53bd86959d0230f816c29cf34d2e498c74eaaca900ea0bba7f747033f  epub_triage/behavior.py
+d60adc12dd7505b87288c2f86068945bd40c3308c0dd34b5d985d3cb49886d06  epub_triage/cli.py
+4735cc14b668d683d0c7f3158c63dcd4de748071afc196dd43a64e57031aab60  epub_triage/content.py
+f35dd10c6770349d95aaaec7acbe568246bb91e04b38f735389d43b5396c0b23  epub_triage/reader_worker.py
+971bfe326686f7acf62ae950854af5281f78cb30be0d893711be1f75f52e1032  epub_triage/repair.py
+1108f564fcf826ed7868976e58d86ee0650119b646a42d674338e5f7b0af2382  epub_triage/repair_rules.py
+cdf54a5a7ad2d1408b31174bd1f1d6df6de41af8628d4f665a7e2585064174d8  epub_triage/repair_state.py
+ee26198a30c8a8bb1ad6bca2d472335f26aee53126453f5f87644907eaee22e3  epub_triage/review.py
+b3588cd7f37e9b5341173c418f4f85bdd1a6f0ebe7a618d3f85eeaf30c79e5c6  epub_triage/review_cli.py
+9e415e9952655221d870e824ccfd28ba2a4d9c96efc957b573f3717275d15772  epub_triage/review_work.py
+8c64a15b06b74f10145568ddd5b48cdc1ee707df32e943f12f48cf042da7ea95  epub_triage/state.py
+69002aeaadbf7d5c934bd71b3d0ac45b8feef093c60a98ed36a7e116ffb3894c  epub_triage/worker.py

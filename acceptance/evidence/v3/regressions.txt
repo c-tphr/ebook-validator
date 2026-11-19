@@ -1,0 +1,36 @@
+test_identifier_corroboration_and_conflict (acceptance.test_v2_review.EvidenceRules.test_identifier_corroboration_and_conflict) ... ok
+test_signed_reference_and_heuristic (acceptance.test_v2_review.EvidenceRules.test_signed_reference_and_heuristic) ... ok
+test_unique_reference_and_stale_fragment (acceptance.test_v2_review.EvidenceRules.test_unique_reference_and_stale_fragment) ... ok
+test_unresolved_signature_reference_withholds_even_packaging (acceptance.test_v2_review.EvidenceRules.test_unresolved_signature_reference_withholds_even_packaging) ... ok
+test_writer_drift_in_edited_member_is_detected (acceptance.test_v2_review.EvidenceRules.test_writer_drift_in_edited_member_is_detected) ... ok
+test_candidate_failure_paths_and_operational_stop (acceptance.test_v2_review.Workflow.test_candidate_failure_paths_and_operational_stop) ... ok
+test_changed_intake_can_be_restaged_and_queue_hash_is_checked (acceptance.test_v2_review.Workflow.test_changed_intake_can_be_restaged_and_queue_hash_is_checked) ... ok
+test_empty_queue_preview_and_unsupported_live_wal (acceptance.test_v2_review.Workflow.test_empty_queue_preview_and_unsupported_live_wal) ... ok
+test_interrupted_prelink_and_two_process_retry (acceptance.test_v2_review.Workflow.test_interrupted_prelink_and_two_process_retry) ... /usr/lib/python3.13/multiprocessing/connection.py:448: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f14bb353970>
+  class Listener(object):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+/usr/lib/python3.13/multiprocessing/connection.py:448: ResourceWarning: unclosed database in <sqlite3.Connection object at 0x7f14bb352d40>
+  class Listener(object):
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+ok
+test_latest_bytes_and_report_only_preflight_failure (acceptance.test_v2_review.Workflow.test_latest_bytes_and_report_only_preflight_failure) ... ok
+test_mismatch_during_pending_publication_leaves_output_unpublished (acceptance.test_v2_review.Workflow.test_mismatch_during_pending_publication_leaves_output_unpublished) ... ok
+test_noop_rejection_and_batch_continuation (acceptance.test_v2_review.Workflow.test_noop_rejection_and_batch_continuation) ... ok
+test_process_dies_between_link_and_ready_commit (acceptance.test_v2_review.Workflow.test_process_dies_between_link_and_ready_commit) ... ok
+test_relevant_rule_revision_and_latest_regression (acceptance.test_v2_review.Workflow.test_relevant_rule_revision_and_latest_regression) ... ok
+test_restart_after_link_and_collision_and_duplicate (acceptance.test_v2_review.Workflow.test_restart_after_link_and_collision_and_duplicate) ... ok
+test_selection_preview_versions_and_integrity (acceptance.test_v2_review.Workflow.test_selection_preview_versions_and_integrity) ... ok
+test_signed_book_whole_plan_and_ambiguous_inventory (acceptance.test_v2_review.Workflow.test_signed_book_whole_plan_and_ambiguous_inventory) ... ok
+test_standalone_across_v1_roots_and_two_identical_lineages (acceptance.test_v2_review.Workflow.test_standalone_across_v1_roots_and_two_identical_lineages) ... ok
+test_collision_processes_cross_filesystem_and_reintroduction (acceptance.test_review.Review.test_collision_processes_cross_filesystem_and_reintroduction) ... ok
+test_decisions_and_preview (acceptance.test_review.Review.test_decisions_and_preview) ... ok
+test_limit_versus_worker_failure (acceptance.test_review.Review.test_limit_versus_worker_failure) ... ok
+test_preflight_refresh_and_failure (acceptance.test_review.Review.test_preflight_refresh_and_failure) ... ok
+test_process_death_after_quarantine_unlink (acceptance.test_review.Review.test_process_death_after_quarantine_unlink) ... ok
+test_queue_failure_and_copy_interruption (acceptance.test_review.Review.test_queue_failure_and_copy_interruption) ... ok
+test_selection_and_roots (acceptance.test_review.Review.test_selection_and_roots) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 3.002s
+
+OK

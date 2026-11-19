@@ -1,0 +1,13 @@
+GUEST_READY
+INPUT /work/books/repair.epub fcbc222186dbae132394bf858b6725cdde9afffd1cf7d76b054919e75aa14245
+Wed Nov 18 19:07:25 UTC 2026
+Preflight passed. Daily signatures epoch 1794983319.
+{"path":"repair.epub","source":"/work/books/repair.epub","sha256":"fcbc222186dbae132394bf858b6725cdde9afffd1cf7d76b054919e75aa14245","security":{"complete":true,"findings":[]},"quality":{"complete":true,"findings":[{"kind":"verified","code":"broken_navigation_fragment","detail":"Missing navigation fragment absent","member":"nav.xhtml"},{"kind":"verified","code":"RSC-012","detail":"ERROR: Fragment identifier is not defined."}]},"action":"stage_repair","destination":"/work/output/repair/repair.epub","status":"verified_defect","report_only":false}
+Books 1. Clean 0. Quarantine 0. Repair 1. Operational errors 0.
+CLI_EXIT=1
+Wed Nov 18 19:17:43 UTC 2026
+RETAINED /work/books/repair.epub fcbc222186dbae132394bf858b6725cdde9afffd1cf7d76b054919e75aa14245
+RETAINED /work/output/repair/repair.epub fcbc222186dbae132394bf858b6725cdde9afffd1cf7d76b054919e75aa14245
+QUEUE [('/work/books/repair.epub', 'fcbc222186dbae132394bf858b6725cdde9afffd1cf7d76b054919e75aa14245', 'verified_defect', '/work/output/repair/repair.epub')]
+FINISHED_CODE=1
+[  648.734377] reboot: Power down

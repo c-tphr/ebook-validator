@@ -1,0 +1,214 @@
+{
+  "v2": {
+    "environment": "Debian 13, Linux 6.12.107, two ext4 volumes",
+    "entry": "scan --repair",
+    "scanner": "live ClamAV 1.4.6 and EPUBCheck 5.4.0",
+    "reader_transport": "live",
+    "source": "/work/v4/shipped/books/layout.epub",
+    "intake": "/work/output/shipped/intake/layout.epub",
+    "action": "stage_repair",
+    "intake_behavior": {
+      "sha256": "f8b32ff48d4e7022ae6c2c43f18c0e88670bfac348b05a8f0519e235dd7c855e",
+      "configuration_id": "2e9b5587459f46b23ddffbc8f0650d318d69f310c5c8251e94d212dd213ea63c",
+      "outcome": "release",
+      "effective": "release",
+      "steps": {
+        "qt5": [
+          [
+            "reading_order",
+            "text.xhtml",
+            "completed",
+            [
+              1
+            ]
+          ],
+          [
+            "toc_document",
+            "nav.xhtml",
+            "completed",
+            [
+              1
+            ]
+          ],
+          [
+            "toc",
+            "text.xhtml",
+            "completed",
+            [
+              1
+            ]
+          ]
+        ],
+        "weasyprint": [
+          [
+            "reading_order",
+            "text.xhtml",
+            "completed",
+            [
+              1
+            ]
+          ],
+          [
+            "toc_document",
+            "nav.xhtml",
+            "completed",
+            [
+              1
+            ]
+          ],
+          [
+            "toc",
+            "text.xhtml",
+            "completed",
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    "decision": "accepted",
+    "candidate_validation": {
+      "security": {
+        "complete": true,
+        "findings": []
+      },
+      "quality": {
+        "complete": true,
+        "findings": []
+      }
+    },
+    "candidate_behavior": {
+      "sha256": "96cba40954d967d269bb35524d53f6e4837e40b8dcb793150af1c7a13751fae9",
+      "configuration_id": "2e9b5587459f46b23ddffbc8f0650d318d69f310c5c8251e94d212dd213ea63c",
+      "outcome": "release",
+      "effective": "release",
+      "steps": {
+        "qt5": [
+          [
+            "reading_order",
+            "text.xhtml",
+            "completed",
+            [
+              1
+            ]
+          ],
+          [
+            "toc_document",
+            "nav.xhtml",
+            "completed",
+            [
+              1
+            ]
+          ],
+          [
+            "toc",
+            "text.xhtml",
+            "completed",
+            [
+              1
+            ]
+          ]
+        ],
+        "weasyprint": [
+          [
+            "reading_order",
+            "text.xhtml",
+            "completed",
+            [
+              1
+            ]
+          ],
+          [
+            "toc_document",
+            "nav.xhtml",
+            "completed",
+            [
+              1
+            ]
+          ],
+          [
+            "toc",
+            "text.xhtml",
+            "completed",
+            [
+              1
+            ]
+          ]
+        ]
+      }
+    },
+    "publication": "/work/output/shipped/repaired/96cba40954d967d269bb35524d53f6e4837e40b8dcb793150af1c7a13751fae9.epub",
+    "output_sha256": "96cba40954d967d269bb35524d53f6e4837e40b8dcb793150af1c7a13751fae9",
+    "offline_volume_check": {
+      "source_and_intake_identical": true,
+      "published_sha256": "96cba40954d967d269bb35524d53f6e4837e40b8dcb793150af1c7a13751fae9",
+      "members_with_identical_contents": 5
+    }
+  },
+  "v3": {
+    "input_hash": "fdcb24c75f82537f2c0facd4452994c65873e23cff5291f1f4093d553b4c234a",
+    "proposal_id": "7d05b719b70cca55ff064ac751cadc43e48286368ce74fe22ec4ccf59dcf575c",
+    "candidate_sha256": "265472762fb2658088ca4cbe133ad2c64ab5103d20d50d2db03094b2f45149a1",
+    "published_sha256": "265472762fb2658088ca4cbe133ad2c64ab5103d20d50d2db03094b2f45149a1",
+    "behavioral_configuration": "2e9b5587459f46b23ddffbc8f0650d318d69f310c5c8251e94d212dd213ea63c",
+    "engines": {
+      "qt5": {
+        "ready": true,
+        "identity": {
+          "engine": "qt5",
+          "renderer": "Qt QTextDocument",
+          "version": "5.15.15",
+          "compiled_version": "5.15.15",
+          "bindings": "5.15.11",
+          "implementation_sha256": "ae4e966d560999d5e409d733e74e029a9a063a450790edcb59c30456b3b291aa"
+        },
+        "monitor": "renderer-callback+strace+seccomp-v1",
+        "boundary_controls": [
+          "DGRAM",
+          "STREAM",
+          "dispatch",
+          "host_read",
+          "read_only"
+        ],
+        "callback_controls": [
+          "out_of_book_read",
+          "outbound_request"
+        ]
+      },
+      "weasyprint": {
+        "ready": true,
+        "identity": {
+          "engine": "weasyprint",
+          "renderer": "WeasyPrint HTML/CSS",
+          "version": "70.0",
+          "packages": {
+            "weasyprint": "70.0",
+            "pydyf": "0.13.0",
+            "tinycss2": "1.5.1",
+            "cssselect2": "0.10.1",
+            "fonttools": "4.68.0",
+            "Pillow": "13.0.0",
+            "cffi": "2.1.1",
+            "tinyhtml5": "2.1.0"
+          },
+          "implementation_sha256": "a53de820e64cba295aac8b15e0ba396246418eb5239d104a017cb0cfb4e71312"
+        },
+        "monitor": "renderer-callback+strace+seccomp-v1",
+        "boundary_controls": [
+          "DGRAM",
+          "STREAM",
+          "dispatch",
+          "host_read",
+          "read_only"
+        ],
+        "callback_controls": [
+          "out_of_book_read",
+          "outbound_request"
+        ]
+      }
+    },
+    "scanner": "controlled",
+    "model": "controlled"
+  }
+}

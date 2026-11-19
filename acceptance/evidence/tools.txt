@@ -1,0 +1,48 @@
+ClamAV update process started at Wed Nov 18 13:52:10 2026
+WARNING: Can't query current.cvd.clamav.net
+WARNING: Invalid DNS reply. Falling back to HTTP mode.
+Trying to retrieve CVD header from https://database.clamav.net/daily.cvd
+OK
+daily database available for download (remote version: 28187)
+Testing database: '/tmp/epub-accept-tools/db/tmp.209f7e2342/clamav-25dbac3a99d70b7631c722a7184afcce.tmp-daily.cvd' ...
+Database test passed.
+daily.cvd updated (version: 28187, sigs: 355874, f-level: 90, builder: svc.clamav-publisher)
+Trying to retrieve CVD header from https://database.clamav.net/main.cvd
+OK
+main database available for download (remote version: 63)
+Testing database: '/tmp/epub-accept-tools/db/tmp.209f7e2342/clamav-dc6230fb6f61258adf3c993d689f9d9f.tmp-main.cvd' ...
+Database test passed.
+main.cvd updated (version: 63, sigs: 3287027, f-level: 90, builder: tomjudge)
+Trying to retrieve CVD header from https://database.clamav.net/bytecode.cvd
+OK
+bytecode database available for download (remote version: 339)
+Testing database: '/tmp/epub-accept-tools/db/tmp.209f7e2342/clamav-aa77a50333db3e4936f252abd2739a67.tmp-bytecode.cvd' ...
+Database test passed.
+bytecode.cvd updated (version: 339, sigs: 80, f-level: 90, builder: nrandolp)
+Daily signature epoch matched authenticated payload: 1794983319
+/tmp/tmpzjc9937k/clean: OK
+/tmp/tmpzjc9937k/control: Eicar-Test-Signature FOUND
+/tmp/tmpzjc9937k/empty: Empty file
+[null, {"kind": "malware", "code": "malware_signature", "detail": "Eicar-Test-Signature"}, null]
+33350c61038e71dfb3d45a76aed04bf5481e6d5500cb780f6e98db8bbd15a28c  validator.zip
+d3ee9e401974855a1edc1761b1425417d126de618d5f0c91cd51209f69f6fcc2  clam.deb
+6d4aa01f219e988060fc419f495d07f27e0cdf1a2cccc065971da922c76f7ffb  db/bytecode.cvd
+423f7774182bfbc82b50c7796c68a93f8b1817ef7ebbc88d7def444bc2c8f35b  db/daily.cvd
+0b2182d229f46981ec8f535382222f7c9dfdd656b250ad47988b910a8d302365  db/main.cvd
+
+Debian userspace 13.6 (trixie), x86-64
+Supervisor /usr/bin/python3 3.13.5
+lxml 5.4.0, tinycss2 1.4.0
+Bubblewrap 0.12.0-1~deb13u1
+OpenJDK 21.0.13; W3C EPUBCheck 5.4.0
+Official ClamAV 1.4.6 AMD64 release, FreshClam 1.4.6
+Guest kernel 6.12.107+deb13-amd64, QEMU 10.0.13 TCG
+SHA-256 of CLI and runtime modules used in extended-deadline guest trials
+bdbdc8e670f908330770625100a8baa4ef766364d6e044cfbdc5b8a82a5df634  epub-triage
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  epub_triage/__init__.py
+786376c61012e0f86f0c0b2cc3a5af2f7899e813121df3d0f7466779fdfac4e2  epub_triage/archive.py
+c49ac3040abc34b5cf685c8cfcc2c4277c192539152a79b1faec01c020f3183f  epub_triage/backend.py
+b1f4af66cf0cb802d53d1526ff43dcf5ad48f2c51743926c20ef7ed9d9821231  epub_triage/cli.py
+e80362406bdd78a48ee7aa8a43dd790bd15fbd171a6bccf7f4e062c92759ca8c  epub_triage/content.py
+445c0d346d70e6ac669fbbe9afbd21d7542fcd43defaaf48c17f595464b673c8  epub_triage/state.py
+4880153c5325b5d56758924354e528d84cff5afba936efc81d179360aa43daad  epub_triage/worker.py

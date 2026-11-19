@@ -1,0 +1,2 @@
+Environment: Debian 13 guest. Isolated locally compiled test executable simulating the agy protocol. No Google binary, account or service was used.
+SIMULATED_AGY_CLI PASS secret-free marker over native fixture, restrictive umask, actual review kept pending: Antigravity native-tool denial must qualify before account access.

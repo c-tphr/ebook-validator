@@ -1,0 +1,45 @@
+Linux (none) 6.12.107+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.107-1 (2026-08-29) x86_64 GNU/Linux
+uid=1000(agent) gid=1000(agent) groups=1000(agent)
+Python 3.13.5
+BWRAP OK
+GUEST_READY
+{"host_listener_blocked": true, "host_marker_hidden": true, "host_namespace": "net:[4026531840]", "input_readable": true, "namespace": "net:[4026532220]", "offline": true, "read_only": true}
+Operational failure: [Errno 2] No such file or directory: 'absent-db'
+Batch stopped. Operational errors 1.
+BAD_PREFLIGHT_EXIT=2
+Preflight passed. Daily signatures epoch 1794983319.
+Books 1. Clean 0. Quarantine 0. Repair 1. Operational errors 0.
+{"path":"identifier.epub","source":"/work/v2b/books/identifier.epub","sha256":"a1ddf25fbde29348170a99cfebbaa398605397d372fc0faf054306476065c8a8","security":{"complete":true,"findings":[]},"quality":{"complete":true,"findings":[{"kind":"verified","code":"OPF-030","detail":"ERROR: The unique-identifier \"PUB\" was not found."}]},"action":"stage_repair","destination":"/work/output/v2b/intake/identifier.epub","status":"verified_defect","report_only":false,"repair":{"phase":"repair","path":"identifier.epub","source":"/work/v2b/books/identifier.epub","intake":"/work/output/v2b/intake/identifier.epub","sha256":"a1ddf25fbde29348170a99cfebbaa398605397d372fc0faf054306476065c8a8","profile":"broader","rule_revision":"621c94e8cea5ca34be3616a4928aebd7a51a358fa6343ded12daa81b49473f2c","decision":"accepted","status":"accepted","action":"repair","report_only":false,"verification":"verified","destination":"/work/output/v2b/repaired/5e6441bb7ffd3c6af5a9fd66052486ebf7cf7e206cb760059badd90888a4726d.epub","output_sha256":"5e6441bb7ffd3c6af5a9fd66052486ebf7cf7e206cb760059badd90888a4726d","latest":{"sha256":"5e6441bb7ffd3c6af5a9fd66052486ebf7cf7e206cb760059badd90888a4726d","path":"/work/output/v2b/repaired/5e6441bb7ffd3c6af5a9fd66052486ebf7cf7e206cb760059badd90888a4726d.epub"},"edits":[{"rule":"D1","member":"book.opf","locator":"./@unique-identifier","byte_span":[65,68],"before":"PUB","after":"pub","member_sha256":"3f9d8e50b44abea69f876b8fe804216e020bcfb790d96d84e1040180786a57f0","finding_codes":["OPF-030","repair_identifier_pointer"],"evidence":{"ncx_member":"toc.ncx","ncx_uid":"urn:example:one","identifier_id":"pub","identifier_value":"urn:example:one"},"before_findings":[{"kind":"verified","code":"repair_identifier_pointer","detail":"Dangling identifier pointer PUB","member":"book.opf","location":"./@unique-identifier"}],"after_findings":[],"postcondition":"verified","rule_version":"1"}],"security":{"complete":true,"findings":[]},"quality":{"complete":true,"findings":[]},"before_validation":{"security":{"complete":true,"findings":[]},"quality":{"complete":true,"findings":[{"kind":"verified","code":"OPF-030","detail":"ERROR: The unique-identifier \"PUB\" was not found.","member":"book.opf","location":[-1,-1],"diagnostic_sha256":"2774f23971c7f6ee6edece95d02bb4c6199f6e69fabf21b424f347734bb58b86"},{"kind":"verified","code":"repair_identifier_pointer","detail":"Dangling identifier pointer PUB","member":"book.opf","location":"./@unique-identifier"}]}},"candidate_validation":{"security":{"complete":true,"findings":[]},"quality":{"complete":true,"findings":[]}},"previous_sha256":null,"latest_findings":{"complete":true,"findings":[]}}}
+COMBINED_EXIT=1
+PASS real combined D1, one JSONL result, exact published hash, preserved XML and input
+V2_STEP_DONE_1=0
+test_collision_processes_cross_filesystem_and_reintroduction (acceptance.test_review.Review.test_collision_processes_cross_filesystem_and_reintroduction) ... ok
+test_decisions_and_preview (acceptance.test_review.Review.test_decisions_and_preview) ... ok
+test_limit_versus_worker_failure (acceptance.test_review.Review.test_limit_versus_worker_failure) ... ok
+test_preflight_refresh_and_failure (acceptance.test_review.Review.test_preflight_refresh_and_failure) ... ok
+test_process_death_after_quarantine_unlink (acceptance.test_review.Review.test_process_death_after_quarantine_unlink) ... ok
+test_queue_failure_and_copy_interruption (acceptance.test_review.Review.test_queue_failure_and_copy_interruption) ... ok
+test_selection_and_roots (acceptance.test_review.Review.test_selection_and_roots) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 10.208s
+
+OK
+test_mismatch_during_pending_publication_leaves_output_unpublished (acceptance.test_v2_review.Workflow.test_mismatch_during_pending_publication_leaves_output_unpublished) ... ok
+test_process_dies_between_link_and_ready_commit (acceptance.test_v2_review.Workflow.test_process_dies_between_link_and_ready_commit) ... ok
+test_interrupted_prelink_and_two_process_retry (acceptance.test_v2_review.Workflow.test_interrupted_prelink_and_two_process_retry) ... ok
+test_changed_intake_can_be_restaged_and_queue_hash_is_checked (acceptance.test_v2_review.Workflow.test_changed_intake_can_be_restaged_and_queue_hash_is_checked) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 5.685s
+
+OK
+V2_STEP_DONE_2=0
+V2_STEP_DONE_3=0
+V2_STEP_DONE_4=0
+V2_STEP_DONE_5=0
+V2_STEP_DONE_6=0
+V2_STEP_DONE_7=0
+V2_STEP_DONE_8=0
+V2_STEP_DONE_9=0
+[ 1145.804844] reboot: Power down

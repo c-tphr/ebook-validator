@@ -1,0 +1,29 @@
+{
+  "buttons": [
+    "Approve exact diff",
+    "Configure reviewer",
+    "Confirm publication",
+    "Connect Drive",
+    "Decline publication",
+    "Download report",
+    "Export proposal",
+    "Findings",
+    "Fresh scan",
+    "Journal template",
+    "Open status",
+    "Qualify disposable writes",
+    "Record decision",
+    "Request primary",
+    "Resume",
+    "Reviewers and sign-in methods",
+    "Run",
+    "Second opinion",
+    "Select",
+    "Set up",
+    "Stage verified candidate",
+    "Staging template",
+    "Take over and resume",
+    "Test selected reviewer"
+  ],
+  "setup_output": "{\n  \"system packages\": {\n    \"ready\": false,\n    \"reason\": \"Automatic installation requires a root Ubuntu 24.04 runtime.\"\n  },\n  \"EPUBCheck 5.4.0\": {\n    \"ready\": true\n  },\n  \"WeasyPrint\": {\n    \"ready\": false,\n    \"reason\": \"The compatible WeasyPrint lock requires system Python 3.12.\"\n  },\n  \"signatures\": {\n    \"ready\": false,\n    \"reason\": \"Pinned installation or update failed.\"\n  }\n}\n{\n  \"platform\": \"Linux-6.18.57-x86_64-with-glibc2.41\",\n  \"libc\": [\n    \"glibc\",\n    \"2.41\"\n  ],\n  \"tools\": {\n    \"bwrap\": {\n      \"version\": \"bubblewrap 0.12.0\",\n      \"sha256\": \"573236e5328ac2ebb08f59ae3a9805b4f8d12bdef14be8af4450d5463294985f\",\n      \"path\": \"/usr/bin/bwrap\",\n      \"ok\": true\n    },\n    \"strace\": {\n      \"version\": \"strace -- version 6.13\",\n      \"sha256\": \"69f88291a4e47f258b8e32b089c919a247509f063ef3d6afe5389939051102b3\",\n      \"path\": \"/usr/bin/strace\",\n      \"ok\": true\n    },\n    \"java\": {\n      \"version\": \"openjdk version \\\"21.0.13\\\" 2026-10-20\",\n      \"sha256\": \"1a7e0b17c39003c75b457d686775ccb032e56fa9c8afe3c492d8eb3715e8951a\",\n      \"path\": \"/usr/lib/jvm/java-21-openjdk-amd64/bin/java\",\n      \"ok\": true\n    },\n    \"clamscan\": {\n      \"ok\": false\n    },\n    \"freshclam\": {\n      \"ok\": false\n    },\n    \"python3\": {\n      \"version\": \"Python 3.13.5\",\n      \"sha256\": \"889c603f0d17cb54060951bcf4c4f9b8c9ebd9e52b392c70209bbb9755d797d9\",\n      \"path\": \"/usr/bin/python3.13\",\n      \"ok\": true\n    }\n  },\n  \"tmp_free_bytes\": 57254752256\n}\nScan, behavioral gate, repair and review remain pending.\n"
+}

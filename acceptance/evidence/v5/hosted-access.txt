@@ -1,0 +1,11 @@
+Date: 2026-11-19
+Requested target: https://colab.research.google.com/
+Browser navigation and retry: Browser Use could not read requirements.
+Browser state after first attempt: about:blank.
+Shell HTTP HEAD, retried with network enabled:
+curl: (56) CONNECT tunnel failed, response 403
+HTTP/1.1 403 Forbidden
+server: envoy
+
+No hosted kernel allocated. No Drive or provider authentication attempted.
+Local engine tests: Debian host 6.18.57 and a Debian 13 QEMU guest, Linux 6.12.107.

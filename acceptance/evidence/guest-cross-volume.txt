@@ -1,0 +1,42 @@
+Intermediate Linux integration build, separate ext4 intake and output devices.
+Linux (none) 6.12.107+deb13-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.12.107-1 (2026-08-29) x86_64 GNU/Linux
+uid=1000(agent) gid=1000(agent) groups=1000(agent)
+Python 3.13.5
+BWRAP OK
+GUEST_READY
+test_collision_processes_cross_filesystem_and_reintroduction (acceptance.test_review.Review.test_collision_processes_cross_filesystem_and_reintroduction) ... ok
+test_decisions_and_preview (acceptance.test_review.Review.test_decisions_and_preview) ... ok
+test_limit_versus_worker_failure (acceptance.test_review.Review.test_limit_versus_worker_failure) ... ok
+test_preflight_refresh_and_failure (acceptance.test_review.Review.test_preflight_refresh_and_failure) ... ok
+test_process_death_after_quarantine_unlink (acceptance.test_review.Review.test_process_death_after_quarantine_unlink) ... ok
+test_queue_failure_and_copy_interruption (acceptance.test_review.Review.test_queue_failure_and_copy_interruption) ... ok
+test_selection_and_roots (acceptance.test_review.Review.test_selection_and_roots) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 11.281s
+
+OK
+test_interrupted_after_source_removal (test_triage.CLITests.test_interrupted_after_source_removal) ... ok
+test_partial_write_occupied_temp_and_reintroduced_quarantine (test_triage.CLITests.test_partial_write_occupied_temp_and_reintroduced_quarantine) ... ok
+test_preflight_and_worker_errors_preserve_source (test_triage.CLITests.test_preflight_and_worker_errors_preserve_source) ... ok
+test_preview_preserves_source_output_and_queue_metadata (test_triage.CLITests.test_preview_preserves_source_output_and_queue_metadata) ... ok
+test_preview_selection_disposition_and_idempotency (test_triage.CLITests.test_preview_selection_disposition_and_idempotency) ... ok
+test_queue_commit_failure_and_retry (test_triage.CLITests.test_queue_commit_failure_and_retry) ... ok
+test_confirmed_quarantine_preserves_static_quality_without_epubcheck (test_triage.PolicyTests.test_confirmed_quarantine_preserves_static_quality_without_epubcheck) ... ok
+test_cvd_inner_header_prevents_timestamp_substitution (test_triage.PolicyTests.test_cvd_inner_header_prevents_timestamp_substitution) ... ok
+test_link_remote_and_unlisted_boundaries (test_triage.PolicyTests.test_link_remote_and_unlisted_boundaries) ... ok
+test_malformed_worker_evidence_is_operational (test_triage.PolicyTests.test_malformed_worker_evidence_is_operational) ... ok
+test_physical_archive_limit_and_dangerous_path (test_triage.PolicyTests.test_physical_archive_limit_and_dangerous_path) ... ok
+test_publisher_age_boundaries (test_triage.PolicyTests.test_publisher_age_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 10.404s
+
+OK
+{"host_listener_blocked": true, "host_marker_hidden": true, "host_namespace": "net:[4026531840]", "input_readable": true, "namespace": "net:[4026532220]", "offline": true, "read_only": true}
+START_FINAL_CLI
+Operational failure: Offline worker timed out during ready; inspection attribution unavailable
+Batch stopped. Operational errors 1.
+CLI_EXIT=2
+FINISHED_CODE=2
+[  329.226154] reboot: Power down

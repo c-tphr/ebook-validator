@@ -1,0 +1,6 @@
+fixture request provider=openai model=gpt-5.4 stream=True path=/v1/responses
+fixture: "POST /v1/responses HTTP/1.1" 200 -
+REAL_ANSWER codex {"action": "assess", "outcome": "edit", "rationale": "The replacement restores a plausible word in the damaged passage; verify against the source edition.", "evidence": ["text.xhtml: Wor\ufffd\ufffd\ufffdd on the field."], "edit": {"member": "text.xhtml", "start": 42, "before": "Wor\ufffd\ufffd\ufffdd", "after": "World"}}
+fixture request provider=anthropic model=claude-sonnet-4-6 stream=True path=/v1/messages
+fixture: "POST /v1/messages?beta=true HTTP/1.1" 200 -
+REAL_ANSWER claude {"action": "assess", "outcome": "edit", "rationale": "The replacement removes the corruption while preserving the readable word; verify against the source edition.", "evidence": ["text.xhtml: Wor\ufffd\ufffd\ufffdd on the field."], "edit": {"member": "text.xhtml", "start": 42, "before": "Wor\ufffd\ufffd\ufffdd", "after": "Word"}}

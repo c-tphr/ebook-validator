@@ -1,0 +1,49 @@
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Collecting brotli==1.2.1 (from -r /tmp/v5-wheel-check/locks.txt (line 1))
+  Downloading brotli-1.2.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 24.0 MB/s  0:00:00
+Collecting cffi==2.1.1 (from -r /tmp/v5-wheel-check/locks.txt (line 2))
+  Downloading cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (221 kB)
+Collecting cssselect2==0.10.1 (from -r /tmp/v5-wheel-check/locks.txt (line 3))
+  Downloading cssselect2-0.10.1-py3-none-any.whl (15 kB)
+Collecting fonttools==4.68.0 (from -r /tmp/v5-wheel-check/locks.txt (line 4))
+  Downloading fonttools-4.68.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.4/5.4 MB 20.0 MB/s  0:00:00
+Collecting pillow==13.0.0 (from -r /tmp/v5-wheel-check/locks.txt (line 5))
+  Downloading pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 17.6 MB/s  0:00:00
+Collecting pycparser==3.12 (from -r /tmp/v5-wheel-check/locks.txt (line 6))
+  Downloading pycparser-3.12-py3-none-any.whl (62 kB)
+Collecting pydyf==0.13.0 (from -r /tmp/v5-wheel-check/locks.txt (line 7))
+  Downloading pydyf-0.13.0-py3-none-any.whl (8.1 kB)
+Collecting pyphen==0.18.1 (from -r /tmp/v5-wheel-check/locks.txt (line 8))
+  Downloading pyphen-0.18.1-py3-none-any.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 16.9 MB/s  0:00:00
+Collecting tinycss2==1.5.1 (from -r /tmp/v5-wheel-check/locks.txt (line 9))
+  Downloading tinycss2-1.5.1-py3-none-any.whl (28 kB)
+Collecting tinyhtml5==2.1.0 (from -r /tmp/v5-wheel-check/locks.txt (line 10))
+  Downloading tinyhtml5-2.1.0-py3-none-any.whl (39 kB)
+Collecting weasyprint==70.0 (from -r /tmp/v5-wheel-check/locks.txt (line 11))
+  Downloading weasyprint-70.0-py3-none-any.whl (328 kB)
+Collecting webencodings==0.6.1 (from -r /tmp/v5-wheel-check/locks.txt (line 12))
+  Downloading webencodings-0.6.1-py3-none-any.whl (8.7 kB)
+Collecting zopfli==0.4.3 (from -r /tmp/v5-wheel-check/locks.txt (line 13))
+  Downloading zopfli-0.4.3-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (829 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 829.4/829.4 kB 45.3 MB/s  0:00:00
+Saved /tmp/v5-wheel-check/brotli-1.2.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+Saved /tmp/v5-wheel-check/cffi-2.1.1-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+Saved /tmp/v5-wheel-check/cssselect2-0.10.1-py3-none-any.whl
+Saved /tmp/v5-wheel-check/fonttools-4.68.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+Saved /tmp/v5-wheel-check/pillow-13.0.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl
+Saved /tmp/v5-wheel-check/pycparser-3.12-py3-none-any.whl
+Saved /tmp/v5-wheel-check/pydyf-0.13.0-py3-none-any.whl
+Saved /tmp/v5-wheel-check/pyphen-0.18.1-py3-none-any.whl
+Saved /tmp/v5-wheel-check/tinycss2-1.5.1-py3-none-any.whl
+Saved /tmp/v5-wheel-check/tinyhtml5-2.1.0-py3-none-any.whl
+Saved /tmp/v5-wheel-check/weasyprint-70.0-py3-none-any.whl
+Saved /tmp/v5-wheel-check/webencodings-0.6.1-py3-none-any.whl
+Saved /tmp/v5-wheel-check/zopfli-0.4.3-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl
+Successfully downloaded brotli cffi cssselect2 fonttools pillow pycparser pydyf pyphen tinycss2 tinyhtml5 weasyprint webencodings zopfli
+
+[notice] A new release of pip is available: 26.2.2 -> 26.3
+[notice] To update, run: pip install --upgrade pip

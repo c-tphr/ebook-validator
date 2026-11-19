@@ -1,0 +1,20 @@
+test_book_trigger_precedes_other_reader_timeout_and_records_provenance (acceptance.test_v4_independent.GateTests.test_book_trigger_precedes_other_reader_timeout_and_records_provenance) ... ok
+test_candidate_quarantine_leaves_previous_edition_intact (acceptance.test_v4_independent.GateTests.test_candidate_quarantine_leaves_previous_edition_intact) ... ok
+test_crash_timeout_skip_and_hash_bound_hold_override (acceptance.test_v4_independent.GateTests.test_crash_timeout_skip_and_hash_bound_hold_override) ... ok
+test_empty_and_divergent_receipts_cannot_release (acceptance.test_v4_independent.GateTests.test_empty_and_divergent_receipts_cannot_release) ... ok
+test_existing_protected_directories_unchanged_by_preview (acceptance.test_v4_independent.GateTests.test_existing_protected_directories_unchanged_by_preview) ... ok
+test_hold_override_does_not_supply_v3_publication_consent (acceptance.test_v4_independent.GateTests.test_hold_override_does_not_supply_v3_publication_consent) ... ok
+test_independent_file_witness_resolves_only_matching_native_read (acceptance.test_v4_independent.GateTests.test_independent_file_witness_resolves_only_matching_native_read) ... ok
+test_intake_preview_and_config_cache (acceptance.test_v4_independent.GateTests.test_intake_preview_and_config_cache) ... ok
+test_monitor_loss_cannot_be_overridden_or_cached_as_quiet (acceptance.test_v4_independent.GateTests.test_monitor_loss_cannot_be_overridden_or_cached_as_quiet) ... ok
+test_single_control_for_ambiguity_and_reader_background (acceptance.test_v4_independent.GateTests.test_single_control_for_ambiguity_and_reader_background) ... ok
+test_static_quarantine_is_investigation_only (acceptance.test_v4_independent.GateTests.test_static_quarantine_is_investigation_only) ... ok
+test_unavailable_monitor_leaves_pending_and_resumes (acceptance.test_v4_independent.GateTests.test_unavailable_monitor_leaves_pending_and_resumes) ... ok
+test_v2_pending_journal_rechecks_behavior_before_link (acceptance.test_v4_independent.GateTests.test_v2_pending_journal_rechecks_behavior_before_link) ... ok
+test_v2_publishes_the_tested_hash_and_detects_substitution (acceptance.test_v4_independent.GateTests.test_v2_publishes_the_tested_hash_and_detects_substitution) ... ok
+test_v3_exact_candidate_approval_and_persistent_warning (acceptance.test_v4_independent.GateTests.test_v3_exact_candidate_approval_and_persistent_warning) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 7.031s
+
+OK

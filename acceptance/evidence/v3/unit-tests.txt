@@ -1,0 +1,32 @@
+test_equal_code_and_text_at_different_node_rejected (test_repair.RepairAcceptanceTests.test_equal_code_and_text_at_different_node_rejected) ... ok
+test_omitted_epubcheck_occurrences_block_repair (test_repair.RepairAcceptanceTests.test_omitted_epubcheck_occurrences_block_repair) ... ok
+test_sealed_candidate_requires_read_only_mount_even_when_write_open_is_denied (test_repair.RepairMountTests.test_sealed_candidate_requires_read_only_mount_even_when_write_open_is_denied) ... ok
+test_edited_xml_content_must_match_the_exact_approved_byte_spans (test_repair.RepairRulesTests.test_edited_xml_content_must_match_the_exact_approved_byte_spans) ... ok
+test_raw_zip_records_and_archive_comment_preserved (test_repair.RepairRulesTests.test_raw_zip_records_and_archive_comment_preserved) ... ok
+test_separate_manifest_declaration_blocks_case_retargeting (test_repair.RepairRulesTests.test_separate_manifest_declaration_blocks_case_retargeting) ... ok
+test_ocr_occurrences_include_entities_and_retained_twins (test_review_boundaries.ReviewBoundaryTests.test_ocr_occurrences_include_entities_and_retained_twins) ... ok
+test_ocr_passages_in_one_text_slot_have_independent_anchors (test_review_boundaries.ReviewBoundaryTests.test_ocr_passages_in_one_text_slot_have_independent_anchors) ... ok
+test_ocr_words_in_one_sentence_remain_independent (test_review_boundaries.ReviewBoundaryTests.test_ocr_words_in_one_sentence_remain_independent) ... ok
+test_registered_export_is_checked_on_delayed_id_only_approval (test_review_boundaries.ReviewBoundaryTests.test_registered_export_is_checked_on_delayed_id_only_approval) ... ok
+test_relay_denies_unauthenticated_request_before_upstream (test_review_boundaries.ReviewBoundaryTests.test_relay_denies_unauthenticated_request_before_upstream) ... ok
+test_relay_strips_tools_and_rejects_nested_tool_calls (test_review_boundaries.ReviewBoundaryTests.test_relay_strips_tools_and_rejects_nested_tool_calls) ... ok
+test_single_warning_approval_cannot_allow_new_damaged_word_in_same_sentence (test_review_boundaries.ReviewBoundaryTests.test_single_warning_approval_cannot_allow_new_damaged_word_in_same_sentence) ... ok
+test_interrupted_after_source_removal (test_triage.CLITests.test_interrupted_after_source_removal) ... ok
+test_partial_write_occupied_temp_and_reintroduced_quarantine (test_triage.CLITests.test_partial_write_occupied_temp_and_reintroduced_quarantine) ... ok
+test_preflight_and_worker_errors_preserve_source (test_triage.CLITests.test_preflight_and_worker_errors_preserve_source) ... ok
+test_preview_preserves_source_output_and_queue_metadata (test_triage.CLITests.test_preview_preserves_source_output_and_queue_metadata) ... ok
+test_preview_selection_disposition_and_idempotency (test_triage.CLITests.test_preview_selection_disposition_and_idempotency) ... ok
+test_queue_commit_failure_and_retry (test_triage.CLITests.test_queue_commit_failure_and_retry) ... ok
+test_timeouts_configured_with_bounds_and_inspection_deadline_forwarded (test_triage.CLITests.test_timeouts_configured_with_bounds_and_inspection_deadline_forwarded) ... ok
+test_confirmed_quarantine_preserves_static_quality_without_epubcheck (test_triage.PolicyTests.test_confirmed_quarantine_preserves_static_quality_without_epubcheck) ... ok
+test_cvd_inner_header_prevents_timestamp_substitution (test_triage.PolicyTests.test_cvd_inner_header_prevents_timestamp_substitution) ... ok
+test_link_remote_and_unlisted_boundaries (test_triage.PolicyTests.test_link_remote_and_unlisted_boundaries) ... ok
+test_malformed_worker_evidence_is_operational (test_triage.PolicyTests.test_malformed_worker_evidence_is_operational) ... ok
+test_physical_archive_limit_and_dangerous_path (test_triage.PolicyTests.test_physical_archive_limit_and_dangerous_path) ... ok
+test_publisher_age_boundaries (test_triage.PolicyTests.test_publisher_age_boundaries) ... ok
+test_scanner_batches_archive_and_members_and_keeps_raw_failure_check (test_triage.PolicyTests.test_scanner_batches_archive_and_members_and_keeps_raw_failure_check) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.521s
+
+OK

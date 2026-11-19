@@ -1,0 +1,4 @@
+Operational failure: Offline worker failed during isolation (1): bwrap: setting up uid map: Read-only file system
+
+Batch stopped. Operational errors 1.
+ exit 2 stdout '' protected snapshot unchanged True
